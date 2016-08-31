@@ -24,7 +24,7 @@ function play() {
   $('#play').on('click', function(e) {
     $('#songPlaying').html("now playing " + songToPlay + " by " + theArtist);
     return "now playing " + songToPlay + " by " + theArtist;
-  });
+  })
 }
 
 function pause() {
